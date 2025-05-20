@@ -1,5 +1,4 @@
-number1 = 10
-number2 = number1 = 10
+number1 =
 number2 = 5
 num_sum = number1 + number2
 num_diff = number1 - number2
