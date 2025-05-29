@@ -1,4 +1,4 @@
-weather = input("What's is the weather like today? (sunny/rainy/cold):.")
+weather = input("What's is the weather like today? (sunny/rainy/cold): .")
 #print(weather)
 
 if weather == "sunny":
