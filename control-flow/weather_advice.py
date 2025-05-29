@@ -1,5 +1,5 @@
 
-current_weather = input("What's is the weather like today? (sunny/rainy/cold): ")
+current_weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
 #print(current_weather)
 
