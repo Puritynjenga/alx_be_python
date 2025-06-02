@@ -4,7 +4,7 @@ priority = input("Priority (high/medium/low): ").lower()
 #     print("none")
 # else:
 #     print("okay") 
-time = input("Is it time-bound? (yes/no): ").lower()
+time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 
 
@@ -19,7 +19,7 @@ match priority:
     case _:
             print("there is no such choice")
 
-if time == "yes":
+if time_bound == "yes":
     print(f"Reminder:{task} is a high priority task that requires immediate  attention today!")   
 else:
     print(f"Note:'{task}' is a low priority task. Consider completing it when you have free time. ")       
