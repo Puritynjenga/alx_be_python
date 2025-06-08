@@ -22,7 +22,7 @@ def main():
         converted_temp = convert_to_celsius(temp_value)
         print(f"{temp_value}°C is {converted_temp:.7f}°F")
     else:
-        print("Invalid temperature type.6")    
+        print("Invalid temperature. Please enter a numeric value.")    
 
 if __name__ == "__main__":
     main()
