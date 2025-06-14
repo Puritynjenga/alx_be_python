@@ -11,5 +11,4 @@ def safe_divide(numerator,denominator):
         return "Error: Cannot divide by zero."
     else:
         print(f"The result of the division is {result:.1f}")
-    finally:
-        print("Great you are trying this method")    
+     
