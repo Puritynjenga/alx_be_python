@@ -20,7 +20,7 @@ class Library(Book):
     def __init__(self):
         self.books = [] #store Book objects
 
-    def add_book(self, book):
+    def Add_Book(self, book):
         """
         Adds a Book object to the library's collection.
         """
@@ -29,7 +29,7 @@ class Library(Book):
         else:
             print(f"Error: Can only add Book objects to the library. Received: {type(book)}")
 
-    def check_out_book(self, title):
+    def Check_out_Book(self, title):
         """
         Checks out a book by its title if it's available.
         """
@@ -45,7 +45,7 @@ class Library(Book):
         print(f"Book with title '{title}' not found in the library.")
         return False
 
-    def return_book(self, title):
+    def Return_Book(self, title):
         """
         Returns a book by its title if it was checked out.
         """
