@@ -13,7 +13,7 @@ class Book:
     def  __del__(self):
         print(f"Deleting {self.title}")  #close the title of the book once the object is deleted
 
-    def __repr__(self):
+    def __repr__(self):  #book object representation for  debugging and logging 
         return f"Book('{self.title}', '{self.author}', {self.year})"
         
          
