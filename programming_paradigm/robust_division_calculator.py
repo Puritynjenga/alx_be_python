@@ -12,4 +12,4 @@ def safe_divide(numerator,denominator):
     else:
         return result
     
-     
+    
